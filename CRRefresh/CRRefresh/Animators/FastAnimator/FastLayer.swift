@@ -27,9 +27,9 @@ import UIKit
 
 class FastLayer: CALayer {
     
-    private (set)var circle: FastCircleLayer?
+    private(set) var circle: FastCircleLayer?
     
-    private (set)var arrow: FastArrowLayer?
+    private(set) var arrow: FastArrowLayer?
     
     let color: UIColor
     

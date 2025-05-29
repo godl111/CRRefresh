@@ -44,6 +44,7 @@ class CRRefreshBundle {
         return nil
     }
     
+    @MainActor
     func imageFromBundle(_ imageName: String) -> UIImage? {
         var imageName = imageName
         if UIScreen.main.scale == 2 {

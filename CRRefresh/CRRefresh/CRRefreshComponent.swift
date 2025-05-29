@@ -162,7 +162,7 @@ open class CRRefreshComponent: UIView {
 
 //MARK: Observer Methods 
 extension CRRefreshComponent {
-    
+    @MainActor
     fileprivate static var context            = "CRRefreshContext"
     fileprivate static let offsetKeyPath      = "contentOffset"
     fileprivate static let contentSizeKeyPath = "contentSize"
